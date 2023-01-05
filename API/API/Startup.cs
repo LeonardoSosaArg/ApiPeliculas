@@ -149,7 +149,7 @@ namespace API
             app.UseSwagger();
             app.UseSwaggerUI(options =>
             {
-                options.SwaggerEndpoint("/apiPeliculas/swagger/ApiPeliculas/swagger.json","API Peliculas");
+                options.SwaggerEndpoint("/swagger/ApiPeliculas/swagger.json","API Peliculas");
                 options.RoutePrefix = "";
             });
 
