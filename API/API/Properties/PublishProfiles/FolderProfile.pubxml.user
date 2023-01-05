@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\CursoApi\ApiPeliculas\API\API\bin\Release\netcoreapp3.1\publish\</_PublishTargetUrl>
+    <History>True|2023-01-05T19:48:42.3521600Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

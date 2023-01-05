@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API</name>
+    </assembly>
+    <members>
+        <member name="M:API.Controllers.CategoriasController.GetCategorias">
+            <summary>
+            Obtener todas las categorías.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.CategoriasController.GetCategoria(System.Int32)">
+            <summary>
+            Obtener una categoria por Id.
+            </summary>
+            <param name="id">Id de la categoría.</param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.CategoriasController.PostCategoria(API.Models.Dtos.CategoriaDto)">
+            <summary>
+            Crear una nueva categoría.
+            </summary>
+            <param name="categoriaDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.CategoriasController.UpdateCategoria(System.Int32,API.Models.Dtos.CategoriaDto)">
+            <summary>
+            Actualizar una categoría existente.
+            </summary>
+            <param name="categoriaId"></param>
+            <param name="categoriaDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.CategoriasController.DeleteCategoria(System.Int32)">
+            <summary>
+            Borrar una categoría existente.
+            </summary>
+            <param name="categoriaId"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
